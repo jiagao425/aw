@@ -81,7 +81,7 @@ unsigned int compute_aw ( unsigned char * seq, unsigned char * seq_id, struct TS
 
         fprintf ( out_fd, ".............................................\n");
 
-        fprintf ( out_fd, "k = %ld \n", numk );
+        fprintf ( out_fd, "k = %lld \n", numk );
 
         fprintf ( out_fd, "t = %LF \n", numt );
 
